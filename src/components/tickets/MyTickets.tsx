@@ -139,7 +139,7 @@ function TicketCard({ ticket, showRefund = false }: TicketCardProps) {
     <Card className="overflow-hidden motickets-shadow hover:shadow-lg transition-shadow">
       <div className="md:flex">
         <div className="md:w-1/3">
-          <Image
+          <img
             src={ticket.image}
             alt={ticket.eventName}
             className="w-full h-48 md:h-full object-cover"
