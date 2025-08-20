@@ -86,7 +86,7 @@ const recommendations = [
     name: "Comedy Night Live",
     price: "$45",
     image:
-      "https://images.unsplash.com/photo-1585699798531-f07bb2ed9c2a?w=200&h=150&fit=crop",
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
