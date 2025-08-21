@@ -503,7 +503,7 @@ export default function Home() {
             </Button>
             <Button
               onClick={handleAddPayment}
-              className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500"
+              className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500"
             >
               Add Payment Method
             </Button>
@@ -1128,7 +1128,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-end">
-          <Button className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500">
+          <Button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500">
             Save Preferences
           </Button>
         </div>
@@ -1213,7 +1213,7 @@ export default function Home() {
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Saved Payment Methods</h2>
               <Button
-                className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500"
+                className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500"
                 onClick={() => setIsAddPaymentOpen(true)}
               >
                 <Plus className="h-4 w-4 mr-2" />
@@ -1542,7 +1542,7 @@ export default function Home() {
                     className="mt-1"
                   />
                 </div>
-                <Button className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500">
+                <Button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500">
                   Submit Review
                 </Button>
               </CardContent>
@@ -1702,7 +1702,7 @@ export default function Home() {
           <CardContent className="space-y-4">
             <div className="flex gap-2">
               <Input placeholder="Enter code" />
-              <Button className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500">
+              <Button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500">
                 Apply
               </Button>
             </div>
@@ -1780,7 +1780,7 @@ export default function Home() {
               <Label>Phone</Label>
               <Input defaultValue="+1 (555) 123-4567" />
             </div>
-            <Button className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500">
+            <Button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500">
               Update Profile
             </Button>
           </CardContent>
@@ -1842,7 +1842,7 @@ export default function Home() {
               <Label>Message</Label>
               <Textarea placeholder="Describe your issue..." />
             </div>
-            <Button className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500 w-full">
+            <Button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500 w-full">
               Send Message
             </Button>
 
@@ -1981,7 +1981,7 @@ export default function Home() {
                 </Button>
                 <Button
                   size="sm"
-                  className="bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500"
+                  className="bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500"
                 >
                   Get Notified
                 </Button>
@@ -2024,7 +2024,7 @@ export default function Home() {
                 <Label>Email</Label>
                 <Input type="email" placeholder="Enter your email" />
               </div>
-              <Button className="w-full bg-gradient-to-r from-purple-800 to-purple-600 text-white hover:from-purple-700 hover:to-purple-500">
+              <Button className="w-full bg-gradient-to-r from-blue-300 to-blue-500 text-white hover:from-blue-700 hover:to-blue-500">
                 Send Reset Link
               </Button>
               <div className="text-center">

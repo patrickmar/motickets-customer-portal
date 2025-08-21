@@ -16,6 +16,7 @@ import {
 import { Button } from "../ui/button";
 import { cn } from "../../lib/utils";
 import { useState } from "react";
+import Image from "next/image";
 
 interface SidebarProps {
   activeSection: string;
@@ -48,10 +49,16 @@ export function Sidebar({
     <div className="flex flex-col h-full">
       <div className="p-6 border-b border-border">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <Ticket className="h-5 w-5 text-primary-foreground" />
+          <div className="w-64 h-12 bg-white rounded-lg flex items-center justify-center">
+            {/* <Ticket className="h-5 w-5 text-primary-foreground" /> */}
+            <Image
+              width={72}
+              height={12}
+              src={"/images/logo2.png"}
+              alt="logo"
+            />
           </div>
-          <span className="text-xl font-bold text-primary">MoTickets</span>
+          {/* <span className="text-xl font-bold text-primary">MoTickets</span> */}
         </div>
       </div>
 
